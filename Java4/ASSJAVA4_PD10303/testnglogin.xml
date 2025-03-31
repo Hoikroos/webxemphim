@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UserLoginSuite">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.poly.service.LoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Register Test(failed)">
+    <classes>
+      <class name="com.poly.selenium.RegisterTest">
+        <methods>
+          <include name="testValidRegistration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.poly.selenium.RegisterTest -->
+    </classes>
+  </test> <!-- Register Test(failed) -->
+  <test thread-count="5" name="Crud Test(failed)">
+    <classes>
+      <class name="com.poly.selenium.CrudTest">
+        <methods>
+          <include name="testCreateCategory"/>
+          <include name="testDeleteCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.poly.selenium.CrudTest -->
+    </classes>
+  </test> <!-- Crud Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UpdateUserInfoSuite">
+    <test name="UpdateUserInfoTest">
+        <classes>
+            <class name="com.poly.service.UpdateUserInfoTest"/>
+        </classes>
+    </test>
+</suite>

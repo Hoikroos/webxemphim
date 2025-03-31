@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UpdateUserInfoSuite]">
+  <test thread-count="5" name="UpdateUserInfoTest(failed)">
+    <classes>
+      <class name="com.poly.service.UpdateUserInfoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testUpdateUserInfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.poly.service.UpdateUserInfoTest -->
+    </classes>
+  </test> <!-- UpdateUserInfoTest(failed) -->
+</suite> <!-- Failed suite [UpdateUserInfoSuite] -->

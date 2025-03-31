@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ChangePasswordSuite">
+    <test name="ChangePasswordTest">
+        <classes>
+            <class name="com.poly.service.ChangePasswordTest"/>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChangePasswordSuite]">
+  <test thread-count="5" name="ChangePasswordTest(failed)">
+    <classes>
+      <class name="com.poly.service.ChangePasswordTest">
+        <methods>
+          <include name="testChangePassword" invocation-numbers="2 3 4"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.poly.service.ChangePasswordTest -->
+    </classes>
+  </test> <!-- ChangePasswordTest(failed) -->
+</suite> <!-- Failed suite [ChangePasswordSuite] -->
